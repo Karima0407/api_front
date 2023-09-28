@@ -1,0 +1,69 @@
+.box {
+  width: 60%;
+
+  margin: 100px auto;
+
+  display: flex;
+
+  height: 700px;
+
+  margin-top: 30px;
+}
+
+.user_list {
+  width: 20%;
+
+  background-color: rgba(255, 228, 196, 0.253);
+
+  border: solid 2px black;
+
+  padding: 10px 15px;
+}
+
+.message {
+  width: 60%;
+
+  background-color: rgba(0, 255, 255, 0.089);
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+
+  padding: 5px 15px;
+
+  border: solid 2px black;
+}
+
+p {
+  /* padding: 0; */
+
+  margin: 2px;
+
+  background-color: rgb(156, 156, 202);
+
+  color: black;
+ 
+}
+
+#message {
+  width: 80%;
+
+  height: 40px;
+}
+
+.expediteur {
+  width: 200px;
+  border: solid 2px;
+  background-color: aquamarine;
+  margin: 5px 0px 5px 200px;
+
+}
+
+.recepteur {
+  width: 200px;
+  border: solid 2px;
+  background-color: aquamarine;
+  margin-left: 20px;
+}
